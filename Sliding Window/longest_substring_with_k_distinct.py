@@ -19,4 +19,5 @@ def longest_substring_with_k_distinct(String, k):
       lp +=1
     output = max(output,rp-lp+1)
       
+      
   return output
